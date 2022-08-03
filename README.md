@@ -6,7 +6,7 @@ O aplicativo tem o objetivo de controlar os movimentos lineares e ângulares do 
 ROS 2 Foxy e Android Studio
 
 ## Contrua o pacote do ROS 2
-Realize o download do arquivo, renomeie para "aplicativo" e envie para o diretório "home". Em seguida, abra o terminal e execute o comando:
+Realize o download do arquivo e faça a descompactação do "aplicativo" para o diretório "home". Em seguida, abra o terminal e execute o comando:
 ```bash
 source /opt/ros/foxy/setup.bash
 cd ~/aplicativo/golfinho_app_ws
