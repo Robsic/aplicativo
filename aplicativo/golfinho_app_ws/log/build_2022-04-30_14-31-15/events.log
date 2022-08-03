@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.000734] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.014305] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.060281] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'build'}
+[0.064006] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabriel/golfinho_app_ws/build/cpp_pub', '--', '-j8', '-l8'], 'cwd': '/home/gabriel/golfinho_app_ws/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '1783'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1610'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11110'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:46486'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabriel-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1821,unix/gabriel-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1821'), ('INVOCATION_ID', '58b79b75cf334a7a95569d4fc58ea186'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bbb57087-8fac-416d-8e50-6143fe1f4b18'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64/'), ('PWD', '/home/gabriel/golfinho_app_ws/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '~/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.139380] (-) TimerEvent: {}
+[0.239912] (-) TimerEvent: {}
+[0.263117] (cpp_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target golfinho_teleop\x1b[0m\n'}
+[0.287556] (cpp_pub) StdoutLine: {'line': b'[ 66%] Built target listener\n'}
+[0.287774] (cpp_pub) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[0.333059] (cpp_pub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o\x1b[0m\n'}
+[0.340056] (-) TimerEvent: {}
+[0.440395] (-) TimerEvent: {}
+[0.540732] (-) TimerEvent: {}
+[0.641181] (-) TimerEvent: {}
+[0.742009] (-) TimerEvent: {}
+[0.842947] (-) TimerEvent: {}
+[0.944073] (-) TimerEvent: {}
+[1.045278] (-) TimerEvent: {}
+[1.145832] (-) TimerEvent: {}
+[1.246753] (-) TimerEvent: {}
+[1.347094] (-) TimerEvent: {}
+[1.447374] (-) TimerEvent: {}
+[1.547838] (-) TimerEvent: {}
+[1.648679] (-) TimerEvent: {}
+[1.749488] (-) TimerEvent: {}
+[1.849826] (-) TimerEvent: {}
+[1.950197] (-) TimerEvent: {}
+[2.050930] (-) TimerEvent: {}
+[2.151449] (-) TimerEvent: {}
+[2.252158] (-) TimerEvent: {}
+[2.352906] (-) TimerEvent: {}
+[2.453586] (-) TimerEvent: {}
+[2.554024] (-) TimerEvent: {}
+[2.654835] (-) TimerEvent: {}
+[2.755644] (-) TimerEvent: {}
+[2.856488] (-) TimerEvent: {}
+[2.957226] (-) TimerEvent: {}
+[3.057902] (-) TimerEvent: {}
+[3.158448] (-) TimerEvent: {}
+[3.258962] (-) TimerEvent: {}
+[3.360077] (-) TimerEvent: {}
+[3.460864] (-) TimerEvent: {}
+[3.561239] (-) TimerEvent: {}
+[3.661626] (-) TimerEvent: {}
+[3.762073] (-) TimerEvent: {}
+[3.862970] (-) TimerEvent: {}
+[3.963663] (-) TimerEvent: {}
+[4.063982] (-) TimerEvent: {}
+[4.164317] (-) TimerEvent: {}
+[4.264684] (-) TimerEvent: {}
+[4.365027] (-) TimerEvent: {}
+[4.465381] (-) TimerEvent: {}
+[4.565723] (-) TimerEvent: {}
+[4.666029] (-) TimerEvent: {}
+[4.766388] (-) TimerEvent: {}
+[4.866760] (-) TimerEvent: {}
+[4.967101] (-) TimerEvent: {}
+[5.067413] (-) TimerEvent: {}
+[5.167832] (-) TimerEvent: {}
+[5.268177] (-) TimerEvent: {}
+[5.368530] (-) TimerEvent: {}
+[5.468877] (-) TimerEvent: {}
+[5.569200] (-) TimerEvent: {}
+[5.669528] (-) TimerEvent: {}
+[5.769883] (-) TimerEvent: {}
+[5.870220] (-) TimerEvent: {}
+[5.970579] (-) TimerEvent: {}
+[6.070913] (-) TimerEvent: {}
+[6.171259] (-) TimerEvent: {}
+[6.271626] (-) TimerEvent: {}
+[6.371999] (-) TimerEvent: {}
+[6.472348] (-) TimerEvent: {}
+[6.572723] (-) TimerEvent: {}
+[6.673068] (-) TimerEvent: {}
+[6.773401] (-) TimerEvent: {}
+[6.873720] (-) TimerEvent: {}
+[6.974076] (-) TimerEvent: {}
+[7.074407] (-) TimerEvent: {}
+[7.174741] (-) TimerEvent: {}
+[7.275361] (-) TimerEvent: {}
+[7.282790] (cpp_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable golfinho_teleop\x1b[0m\n'}
+[7.375480] (-) TimerEvent: {}
+[7.475770] (-) TimerEvent: {}
+[7.548752] (cpp_pub) StdoutLine: {'line': b'[100%] Built target golfinho_teleop\n'}
+[7.562611] (cpp_pub) CommandEnded: {'returncode': 0}
+[7.575975] (-) TimerEvent: {}
+[7.594395] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'install'}
+[7.605629] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gabriel/golfinho_app_ws/build/cpp_pub'], 'cwd': '/home/gabriel/golfinho_app_ws/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '1783'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1610'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11110'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:46486'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabriel-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1821,unix/gabriel-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1821'), ('INVOCATION_ID', '58b79b75cf334a7a95569d4fc58ea186'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bbb57087-8fac-416d-8e50-6143fe1f4b18'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64/'), ('PWD', '/home/gabriel/golfinho_app_ws/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '~/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.629581] (cpp_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.644227] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/talker\n'}
+[7.666258] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/listener\n'}
+[7.676314] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop\n'}
+[7.677025] (-) TimerEvent: {}
+[7.682407] (cpp_pub) StdoutLine: {'line': b'-- Set runtime path of "/home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop" to ""\n'}
+[7.683315] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub\n'}
+[7.683999] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub\n'}
+[7.684610] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh\n'}
+[7.685223] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv\n'}
+[7.685818] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.sh\n'}
+[7.686261] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv\n'}
+[7.686620] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.bash\n'}
+[7.686941] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.sh\n'}
+[7.687393] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh\n'}
+[7.687992] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv\n'}
+[7.688473] (cpp_pub) StdoutLine: {'line': b'-- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.dsv\n'}
+[7.688798] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub\n'}
+[7.689115] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake\n'}
+[7.689429] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake\n'}
+[7.689745] (cpp_pub) StdoutLine: {'line': b'-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.xml\n'}
+[7.696995] (cpp_pub) CommandEnded: {'returncode': 0}
+[7.777216] (-) TimerEvent: {}
+[7.792938] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 0}
+[7.793971] (-) EventReactorShutdown: {}

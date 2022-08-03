@@ -1,0 +1,23 @@
+CMake Error: The current CMakeCache.txt directory /home/gabriel/test_app_golfinho1/golfinho_app_ws/build/cpp_pub/CMakeCache.txt is different than the directory /home/gabriel/golfinho_app_ws/build/cpp_pub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[ 33%] Built target golfinho_teleop
+[ 66%] Built target listener
+[100%] Built target talker
+-- Install configuration: ""
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/talker
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/listener
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.sh
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.bash
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.sh
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv
+-- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.dsv
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+-- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.xml

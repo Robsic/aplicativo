@@ -1,0 +1,2 @@
+Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8

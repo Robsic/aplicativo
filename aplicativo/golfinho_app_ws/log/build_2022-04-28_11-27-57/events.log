@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.001849] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.021248] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.022775] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'build'}
+[0.024226] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabriel/golfinho_app_ws/build/cpp_pub', '--', '-j8', '-l8'], 'cwd': '/home/gabriel/golfinho_app_ws/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6087'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:45252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabriel-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1776,unix/gabriel-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1776'), ('INVOCATION_ID', 'c561f220e1f243f480e141f9de192f9f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc8bf69e-ca5a-4be0-a2e7-b66d3f6844e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64/'), ('PWD', '/home/gabriel/golfinho_app_ws/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '~/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099464] (-) TimerEvent: {}
+[0.111353] (cpp_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target golfinho_teleop\x1b[0m\n'}
+[0.150114] (cpp_pub) StdoutLine: {'line': b'[ 33%] Built target listener\n'}
+[0.150560] (cpp_pub) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[0.179786] (cpp_pub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o\x1b[0m\n'}
+[0.199613] (-) TimerEvent: {}
+[0.300059] (-) TimerEvent: {}
+[0.400546] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601473] (-) TimerEvent: {}
+[0.701985] (-) TimerEvent: {}
+[0.802390] (-) TimerEvent: {}
+[0.902808] (-) TimerEvent: {}
+[1.003263] (-) TimerEvent: {}
+[1.103726] (-) TimerEvent: {}
+[1.204199] (-) TimerEvent: {}
+[1.304693] (-) TimerEvent: {}
+[1.405154] (-) TimerEvent: {}
+[1.505612] (-) TimerEvent: {}
+[1.606071] (-) TimerEvent: {}
+[1.706615] (-) TimerEvent: {}
+[1.807092] (-) TimerEvent: {}
+[1.907557] (-) TimerEvent: {}
+[2.008016] (-) TimerEvent: {}
+[2.108476] (-) TimerEvent: {}
+[2.208928] (-) TimerEvent: {}
+[2.309401] (-) TimerEvent: {}
+[2.409993] (-) TimerEvent: {}
+[2.510443] (-) TimerEvent: {}
+[2.610896] (-) TimerEvent: {}
+[2.711351] (-) TimerEvent: {}
+[2.752642] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.753125] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:121:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ksleep_for(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753333] (cpp_pub) StderrLine: {'line': b'  121 |         std::this_thread::sleep_for(5\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.753490] (cpp_pub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.753636] (cpp_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:39\x1b[m\x1b[K,\n'}
+[2.753785] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.753936] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.754083] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:10\x1b[m\x1b[K:\n'}
+[2.754234] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:366:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep, class _Period> void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754389] (cpp_pub) StderrLine: {'line': b'  366 |       \x1b[01;36m\x1b[Ksleep_for\x1b[m\x1b[K(const chrono::duration<_Rep, _Period>& __rtime)\n'}
+[2.754549] (cpp_pub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754699] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:366:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.754845] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:121:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754994] (cpp_pub) StderrLine: {'line': b'  121 |         std::this_thread::sleep_for(5\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.755137] (cpp_pub) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.811518] (-) TimerEvent: {}
+[2.911942] (-) TimerEvent: {}
+[3.012413] (-) TimerEvent: {}
+[3.112921] (-) TimerEvent: {}
+[3.213383] (-) TimerEvent: {}
+[3.313840] (-) TimerEvent: {}
+[3.414298] (-) TimerEvent: {}
+[3.514752] (-) TimerEvent: {}
+[3.615262] (-) TimerEvent: {}
+[3.715745] (-) TimerEvent: {}
+[3.816197] (-) TimerEvent: {}
+[3.916740] (-) TimerEvent: {}
+[4.017268] (-) TimerEvent: {}
+[4.117827] (-) TimerEvent: {}
+[4.218295] (-) TimerEvent: {}
+[4.318753] (-) TimerEvent: {}
+[4.371080] (cpp_pub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/golfinho_teleop.dir/build.make:63: CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o] Error 1\n'}
+[4.371642] (cpp_pub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/golfinho_teleop.dir/all] Error 2\n'}
+[4.372112] (cpp_pub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.375874] (cpp_pub) CommandEnded: {'returncode': 2}
+[4.418912] (-) TimerEvent: {}
+[4.457370] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 2}
+[4.468402] (-) EventReactorShutdown: {}

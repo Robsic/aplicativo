@@ -1,0 +1,12 @@
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/install/strip.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/install/local.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/edit_cache.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/test.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/golfinho_teleop.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/install.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/list_install_components.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/rebuild_cache.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/listener.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/talker.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/cpp_pub_uninstall.dir
+/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/uninstall.dir

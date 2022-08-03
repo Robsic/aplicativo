@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /home/gabriel/test_app_golfinho1/golfinho_app_ws/build/cpp_pub/CMakeCache.txt is different than the directory /home/gabriel/golfinho_app_ws/build/cpp_pub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

@@ -1,0 +1,6 @@
+[0.042s] Invoking command in '/home/gabriel/app_golfinho/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/app_golfinho/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[0.119s] CMake Error: The current CMakeCache.txt directory /home/gabriel/app_golfinho/golfinho_app_ws/build/cpp_pub/CMakeCache.txt is different than the directory /home/gabriel/golfinho_app_ws/build/cpp_pub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.142s] CMake Error: The source directory "/home/gabriel/golfinho_app_ws/src/teleop" does not exist.
+[0.142s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.146s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[0.148s] Invoked command in '/home/gabriel/app_golfinho/golfinho_app_ws/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/app_golfinho/golfinho_app_ws/build/cpp_pub -- -j8 -l8

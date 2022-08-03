@@ -1,0 +1,30 @@
+[0.137s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[0.262s] [35m[1mScanning dependencies of target golfinho_teleop[0m
+[0.287s] [ 66%] Built target listener
+[0.287s] [ 66%] Built target talker
+[0.332s] [ 83%] [32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o[0m
+[7.282s] [100%] [32m[1mLinking CXX executable golfinho_teleop[0m
+[7.548s] [100%] Built target golfinho_teleop
+[7.562s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[7.605s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gabriel/golfinho_app_ws/build/cpp_pub
+[7.629s] -- Install configuration: ""
+[7.643s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/talker
+[7.666s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/listener
+[7.676s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop
+[7.682s] -- Set runtime path of "/home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop" to ""
+[7.683s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[7.683s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[7.684s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[7.685s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[7.685s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.sh
+[7.685s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[7.686s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.bash
+[7.686s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.sh
+[7.687s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[7.687s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[7.688s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.dsv
+[7.688s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[7.688s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[7.688s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[7.689s] -- Up-to-date: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.xml
+[7.697s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gabriel/golfinho_app_ws/build/cpp_pub

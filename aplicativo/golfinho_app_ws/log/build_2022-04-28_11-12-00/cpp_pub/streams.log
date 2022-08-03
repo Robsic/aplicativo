@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[0.111s] [35m[1mScanning dependencies of target golfinho_teleop[0m
+[0.148s] [ 33%] Built target listener
+[0.149s] [ 66%] Built target talker
+[0.167s] [ 83%] [32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o[0m
+[2.703s] [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.703s] [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:106:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::publish(std::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type)[m[K’
+[2.703s]   106 |         cmd_pub->publish(std::move(cmd_msg)[01;31m[K)[m[K;
+[2.704s]       |                                            [01;31m[K^[m[K
+[2.704s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[2.704s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[2.704s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[2.704s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.704s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.704s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.705s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.705s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.705s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.705s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.705s]                  from [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:10[m[K:
+[2.705s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[2.706s]   185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+[2.706s]       |   [01;36m[K^~~~~~~[m[K
+[2.706s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} to ‘[01m[Kstd::unique_ptr<geometry_msgs::msg::Twist_<std::allocator<void> >, std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’
+[2.706s]   185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+[2.706s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.706s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.706s]   209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+[2.707s]       |   [01;36m[K^~~~~~~[m[K
+[2.707s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’
+[2.707s]   209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+[2.707s]       |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[2.707s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+[2.707s]   226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[2.708s]       |   [01;36m[K^~~~~~~[m[K
+[2.708s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+[2.708s]   226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[2.708s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.708s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.708s]   232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[2.709s]       |   [01;36m[K^~~~~~~[m[K
+[2.709s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[2.709s]   232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[2.709s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.710s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[2.710s]   246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+[2.710s]       |   [01;36m[K^~~~~~~[m[K
+[2.710s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[2.710s]   246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+[2.710s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.335s] make[2]: *** [CMakeFiles/golfinho_teleop.dir/build.make:63: CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o] Error 1
+[4.336s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/golfinho_teleop.dir/all] Error 2
+[4.336s] make: *** [Makefile:141: all] Error 2
+[4.340s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': /usr/bin/cmake /home/gabriel/golfinho_app_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/gabriel/golfinho_app_ws/install/cpp_pub
+Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '1': /usr/bin/cmake /home/gabriel/golfinho_app_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/gabriel/golfinho_app_ws/install/cpp_pub

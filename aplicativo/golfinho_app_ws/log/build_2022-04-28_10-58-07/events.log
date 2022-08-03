@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.001717] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.001800] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.017654] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.018538] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '/home/gabriel/golfinho_app_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/home/gabriel/golfinho_app_ws/install/cpp_pub'], 'cwd': '/home/gabriel/golfinho_app_ws/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6087'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:45252'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabriel-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1776,unix/gabriel-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1776'), ('INVOCATION_ID', 'c561f220e1f243f480e141f9de192f9f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc8bf69e-ca5a-4be0-a2e7-b66d3f6844e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64/'), ('PWD', '/home/gabriel/golfinho_app_ws/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '~/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.099611] (-) TimerEvent: {}
+[0.200333] (-) TimerEvent: {}
+[0.245781] (cpp_pub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300502] (-) TimerEvent: {}
+[0.355574] (cpp_pub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.368217] (cpp_pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400637] (-) TimerEvent: {}
+[0.500695] (cpp_pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.501011] (-) TimerEvent: {}
+[0.503524] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601185] (-) TimerEvent: {}
+[0.631692] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.656934] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.658046] (cpp_pub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.664319] (cpp_pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.701348] (-) TimerEvent: {}
+[0.801788] (-) TimerEvent: {}
+[0.814708] (cpp_pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.817025] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901931] (-) TimerEvent: {}
+[0.972456] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.998222] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.999434] (cpp_pub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.002071] (-) TimerEvent: {}
+[1.025224] (cpp_pub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.025572] (cpp_pub) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.025756] (cpp_pub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.026108] (cpp_pub) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.026289] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.026444] (cpp_pub) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.026595] (cpp_pub) StderrLine: {'line': b'  any of the following names:\n'}
+[1.026744] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.026889] (cpp_pub) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.027036] (cpp_pub) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.027301] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.027519] (cpp_pub) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.027673] (cpp_pub) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.027821] (cpp_pub) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.027971] (cpp_pub) StderrLine: {'line': b'  has been installed.\n'}
+[1.028210] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.028470] (cpp_pub) StderrLine: {'line': b'\n'}
+[1.028633] (cpp_pub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.028825] (cpp_pub) StdoutLine: {'line': b'See also "/home/gabriel/golfinho_app_ws/build/cpp_pub/CMakeFiles/CMakeOutput.log".\n'}
+[1.031531] (cpp_pub) CommandEnded: {'returncode': 1}
+[1.078415] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 1}
+[1.089672] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.029s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[0.110s] [35m[1mScanning dependencies of target golfinho_teleop[0m
+[0.149s] [ 33%] Built target listener
+[0.149s] [ 66%] Built target talker
+[0.178s] [ 83%] [32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o[0m
+[2.751s] [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.751s] [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:121:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksleep_for(int)[m[K’
+[2.752s]   121 |         std::this_thread::sleep_for(5[01;31m[K)[m[K;
+[2.752s]       |                                      [01;31m[K^[m[K
+[2.752s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[2.752s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.752s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.752s]                  from [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:10[m[K:
+[2.752s] [01m[K/usr/include/c++/9/thread:366:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep, class _Period> void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[2.753s]   366 |       [01;36m[Ksleep_for[m[K(const chrono::duration<_Rep, _Period>& __rtime)
+[2.753s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.753s] [01m[K/usr/include/c++/9/thread:366:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.753s] [01m[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:121:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+[2.753s]   121 |         std::this_thread::sleep_for(5[01;36m[K)[m[K;
+[2.753s]       |                                      [01;36m[K^[m[K
+[4.369s] make[2]: *** [CMakeFiles/golfinho_teleop.dir/build.make:63: CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o] Error 1
+[4.370s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/golfinho_teleop.dir/all] Error 2
+[4.370s] make: *** [Makefile:141: all] Error 2
+[4.377s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8

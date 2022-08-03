@@ -1,0 +1,75 @@
+[0.022s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gabriel/golfinho_app_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/gabriel/golfinho_app_ws/install/cpp_pub
+[0.060s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.112s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.112s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.584s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.877s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.938s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.245s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.253s] -- Looking for pthread.h
+[1.393s] -- Looking for pthread.h - found
+[1.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.540s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.540s] -- Looking for pthread_create in pthreads
+[1.654s] -- Looking for pthread_create in pthreads - not found
+[1.655s] -- Looking for pthread_create in pthread
+[1.795s] -- Looking for pthread_create in pthread - found
+[1.797s] -- Found Threads: TRUE  
+[2.142s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.229s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.391s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.392s] -- Configured cppcheck include dirs: 
+[2.392s] -- Configured cppcheck exclude dirs and/or files: 
+[2.393s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.394s] -- Configured cpplint exclude dirs and/or files: 
+[2.395s] -- Added test 'lint_cmake' to check CMake code style
+[2.397s] -- Added test 'uncrustify' to check C / C++ code style
+[2.397s] -- Configured uncrustify additional arguments: 
+[2.398s] -- Added test 'xmllint' to check XML markup files
+[2.404s] -- Configuring done
+[2.431s] -- Generating done
+[2.435s] -- Build files have been written to: /home/gabriel/golfinho_app_ws/build/cpp_pub
+[2.447s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gabriel/golfinho_app_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/gabriel/golfinho_app_ws/install/cpp_pub
+[2.452s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[2.535s] [35m[1mScanning dependencies of target listener[0m
+[2.539s] [35m[1mScanning dependencies of target golfinho_teleop[0m
+[2.539s] [35m[1mScanning dependencies of target talker[0m
+[2.616s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.629s] [ 33%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.659s] [ 50%] [32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o[0m
+[8.496s] [ 66%] [32m[1mLinking CXX executable talker[0m
+[8.572s] [ 83%] [32m[1mLinking CXX executable golfinho_teleop[0m
+[8.855s] [ 83%] Built target talker
+[8.924s] [ 83%] Built target golfinho_teleop
+[12.216s] [100%] [32m[1mLinking CXX executable listener[0m
+[12.688s] [100%] Built target listener
+[12.710s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gabriel/golfinho_app_ws/build/cpp_pub -- -j8 -l8
+[12.787s] Invoking command in '/home/gabriel/golfinho_app_ws/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gabriel/golfinho_app_ws/build/cpp_pub
+[12.803s] -- Install configuration: ""
+[12.804s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/talker
+[12.806s] -- Set runtime path of "/home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/talker" to ""
+[12.806s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/listener
+[12.809s] -- Set runtime path of "/home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/listener" to ""
+[12.810s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop
+[12.812s] -- Set runtime path of "/home/gabriel/golfinho_app_ws/install/cpp_pub/lib/cpp_pub/golfinho_teleop" to ""
+[12.812s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[12.812s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[12.813s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[12.813s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[12.813s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.sh
+[12.814s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[12.814s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.bash
+[12.814s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.sh
+[12.814s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[12.815s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[12.815s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.dsv
+[12.815s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[12.816s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[12.816s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[12.816s] -- Installing: /home/gabriel/golfinho_app_ws/install/cpp_pub/share/cpp_pub/package.xml
+[12.821s] Invoked command in '/home/gabriel/golfinho_app_ws/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gabriel/golfinho_app_ws/build/cpp_pub

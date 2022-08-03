@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (cpp_pub) JobQueued: {'identifier': 'cpp_pub', 'dependencies': OrderedDict()}
+[0.000326] (cpp_pub) JobStarted: {'identifier': 'cpp_pub'}
+[0.020428] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'cmake'}
+[0.021884] (cpp_pub) JobProgress: {'identifier': 'cpp_pub', 'progress': 'build'}
+[0.023823] (cpp_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gabriel/golfinho_app_ws/build/cpp_pub', '--', '-j8', '-l8'], 'cwd': '/home/gabriel/golfinho_app_ws/build/cpp_pub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'gabriel'), ('SSH_AGENT_PID', '1737'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gabriel'), ('OLDPWD', '/home/gabriel'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6087'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gabriel'), ('JOURNAL_STREAM', '8:45252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'gabriel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gabriel-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1776,unix/gabriel-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1776'), ('INVOCATION_ID', 'c561f220e1f243f480e141f9de192f9f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:bc8bf69e-ca5a-4be0-a2e7-b66d3f6844e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64/'), ('PWD', '/home/gabriel/golfinho_app_ws/build/cpp_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ANDROID_HOME', '~/Android/Sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098137] (-) TimerEvent: {}
+[0.111139] (cpp_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target golfinho_teleop\x1b[0m\n'}
+[0.148436] (cpp_pub) StdoutLine: {'line': b'[ 33%] Built target listener\n'}
+[0.150050] (cpp_pub) StdoutLine: {'line': b'[ 66%] Built target talker\n'}
+[0.167996] (cpp_pub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o\x1b[0m\n'}
+[0.198294] (-) TimerEvent: {}
+[0.298758] (-) TimerEvent: {}
+[0.399187] (-) TimerEvent: {}
+[0.499656] (-) TimerEvent: {}
+[0.600133] (-) TimerEvent: {}
+[0.700617] (-) TimerEvent: {}
+[0.801133] (-) TimerEvent: {}
+[0.901561] (-) TimerEvent: {}
+[1.002117] (-) TimerEvent: {}
+[1.102590] (-) TimerEvent: {}
+[1.203176] (-) TimerEvent: {}
+[1.303648] (-) TimerEvent: {}
+[1.404109] (-) TimerEvent: {}
+[1.504579] (-) TimerEvent: {}
+[1.605049] (-) TimerEvent: {}
+[1.705516] (-) TimerEvent: {}
+[1.805987] (-) TimerEvent: {}
+[1.906458] (-) TimerEvent: {}
+[2.006931] (-) TimerEvent: {}
+[2.107402] (-) TimerEvent: {}
+[2.207868] (-) TimerEvent: {}
+[2.308345] (-) TimerEvent: {}
+[2.408802] (-) TimerEvent: {}
+[2.509272] (-) TimerEvent: {}
+[2.609734] (-) TimerEvent: {}
+[2.703545] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.703923] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:106:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::publish(std::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704107] (cpp_pub) StderrLine: {'line': b'  106 |         cmd_pub->publish(std::move(cmd_msg)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.704261] (cpp_pub) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.704405] (cpp_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.704550] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.704695] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.704839] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.704983] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.705158] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.705341] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.705493] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.705647] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.705792] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.705938] (cpp_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gabriel/golfinho_app_ws/src/teleop/src/golfinho_teleop_node.cpp:10\x1b[m\x1b[K:\n'}
+[2.706084] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706262] (cpp_pub) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[2.706412] (cpp_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.706560] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<geometry_msgs::msg::Twist_<std::allocator<void> >, std::default_delete<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706719] (cpp_pub) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[2.706880] (cpp_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.707029] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.707220] (cpp_pub) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[2.707367] (cpp_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.707510] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.707683] (cpp_pub) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[2.707826] (cpp_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.707964] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.708113] (cpp_pub) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[2.708253] (cpp_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.708393] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.708553] (cpp_pub) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[2.708696] (cpp_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.708838] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.708986] (cpp_pub) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[2.709183] (cpp_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.709474] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709757] (-) TimerEvent: {}
+[2.709977] (cpp_pub) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[2.710155] (cpp_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.710320] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710521] (cpp_pub) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[2.710668] (cpp_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.710811] (cpp_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::remove_reference<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710984] (cpp_pub) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[2.711161] (cpp_pub) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.809883] (-) TimerEvent: {}
+[2.910337] (-) TimerEvent: {}
+[3.010767] (-) TimerEvent: {}
+[3.111288] (-) TimerEvent: {}
+[3.211745] (-) TimerEvent: {}
+[3.312212] (-) TimerEvent: {}
+[3.412646] (-) TimerEvent: {}
+[3.513205] (-) TimerEvent: {}
+[3.613663] (-) TimerEvent: {}
+[3.714121] (-) TimerEvent: {}
+[3.814577] (-) TimerEvent: {}
+[3.915070] (-) TimerEvent: {}
+[4.015542] (-) TimerEvent: {}
+[4.116008] (-) TimerEvent: {}
+[4.216473] (-) TimerEvent: {}
+[4.316936] (-) TimerEvent: {}
+[4.335925] (cpp_pub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/golfinho_teleop.dir/build.make:63: CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o] Error 1\n'}
+[4.336423] (cpp_pub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/golfinho_teleop.dir/all] Error 2\n'}
+[4.336840] (cpp_pub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.340347] (cpp_pub) CommandEnded: {'returncode': 2}
+[4.417532] (-) TimerEvent: {}
+[4.422062] (cpp_pub) JobEnded: {'identifier': 'cpp_pub', 'rc': 2}
+[4.433298] (-) EventReactorShutdown: {}

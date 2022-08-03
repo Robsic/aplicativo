@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target golfinho_teleop[0m
+[ 33%] Built target listener
+[ 66%] Built target talker
+[ 83%] [32mBuilding CXX object CMakeFiles/golfinho_teleop.dir/src/golfinho_teleop_node.cpp.o[0m
